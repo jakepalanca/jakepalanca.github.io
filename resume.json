@@ -43,7 +43,7 @@
   "projects": [
     {
       "title": "iOS Blackjack App",
-      "image": "images/bj.jpg",
+      "image": "images/blackjack.png",
       "descr": [
         "Made using SwiftUI 6 with strict concurrency"
       ]

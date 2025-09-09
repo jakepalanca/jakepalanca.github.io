@@ -1,0 +1,242 @@
+body {
+  margin: 0px 0px 0px 0px;
+  background-color: #0F172A;
+  font-family: "Montserrat", sans-serif;
+}
+
+/****************   Nav Section **********************/
+nav {
+	display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #28334a;
+  align-items: center;
+  padding: 8px 24px 8px 24px;
+}
+
+/***********************  Footer Section   **************************/
+footer {
+	display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #28334a;
+  align-items: center;
+  padding: 8px 24px 8px 24px;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+/*********** Splash Page ************************/
+header {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 16px 16px 16px 16px;
+}
+
+header h1 {
+  color: #E2E8F0;
+  font-size: 64px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  word-break: break-word;
+  margin-bottom: 0;
+  margin-top: 24px;
+
+}
+
+header img {
+  border-radius: 16px;
+  width: 8vw;
+}
+
+.address {
+  display: flex;
+  overflow-wrap: normal;
+  justify-content: center;
+  align-content: center;
+  color: #d3cecd;
+  font-size: small;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0;
+}
+
+.tagline {
+  display: flex;
+  overflow-wrap: normal;
+    justify-content: center;
+  align-content: center;
+  color: #f5f1f0;
+  font-size: large;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/************* Sections ********************/
+hr {
+  color: rgb(170, 177, 184)
+}
+
+section h3 {
+  display: flex;
+  flex-direction: row;
+  align-self: start;
+  justify-content: start;
+  color: #94A3B8;
+  font-size: large;
+  font-family: "Montserrat", sans-serif;
+}
+
+section dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 16px;
+  align-items: flex-start;
+  color: #E2E8F0;
+  font-size: small;
+  font-family: "Montserrat", sans-serif;
+}
+
+section ul {
+  display: grid;
+  color: #CBD5E1;
+  font-size: small;
+  font-family: "Montserrat", sans-serif;
+  list-style-position: outside;
+}
+
+section a {
+  color: #60A5FA;
+  text-decoration: none;
+  font-size: medium;
+}
+
+section a:hover {
+  color: #93C5FD;
+  text-decoration: underline;
+  font-size: medium;
+}
+
+a {
+  color: #60A5FA;
+  text-decoration: none;
+  font-size: medium;
+}
+
+a:hover {
+  color: #93C5FD;
+  text-decoration: underline;
+  font-size: medium;
+}
+
+nav p {
+  color: #93C5FD;
+  font-size: large;
+}
+
+section h2 {
+  color: #93C5FD;
+  font-size: large;
+}
+
+label {
+  color: #93C5FD;
+  font-size: large;
+}
+
+/**************   Projects   *****************/
+.three-col {
+	display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.card img {
+  border-radius: 16px;
+  width: 30%;
+  height: 50%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-self: start;
+  justify-content: start;
+  background-color: #495d87;
+  border-radius: 24px;
+  gap: 16px;
+  padding: 24px 24px 24px 24px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  justify-content: start;
+}
+
+section {
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/**************   Responsiveness   *****************/
+@media (max-width: 680px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      background-color: #28334a;
+      align-items: start;
+      gap: 8px;
+      padding: 16px 24px 16px 24px;
+    }
+
+    .three-col {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    header img {
+      border-radius: 16px;
+      width: 48vw;
+    }
+
+    header h1 {
+      color: #E2E8F0;
+      font-size: 36px;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+      word-break: break-word;
+    }
+  }
+
+/**************   Contact Page   *****************/
+.one-col {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-flow: row;
+}
+
+input {
+  text-orientation: sideways-right;
+}
+
+section form {
+  color: rgb(161, 157, 192);
+  padding: 32px 32px 32px 32px;
+  max-width: 50vmin;
+  height: max-content;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex: 1;
+}

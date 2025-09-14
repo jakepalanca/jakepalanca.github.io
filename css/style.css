@@ -86,7 +86,7 @@ section h3 {
   flex-direction: row;
   align-self: start;
   justify-content: start;
-  color: #94A3B8;
+  color: #cedcee;
   font-size: large;
   font-family: "Montserrat", sans-serif;
 }
@@ -139,7 +139,7 @@ nav p {
 }
 
 section h2 {
-  color: #93C5FD;
+  color: #435468;
   font-size: large;
 }
 
@@ -170,6 +170,13 @@ label {
   border-radius: 24px;
   gap: 16px;
   padding: 24px 24px 24px 24px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 32px 4px #60A5FA, 0 1.5px 12px 2px #1e293b;
+  outline: 2px solid #60A5FA;
+  z-index: 2;
+  padding: 16px 16px 16px 16px;
 }
 
 .row {

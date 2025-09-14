@@ -43,8 +43,9 @@
   "projects": [
     {
       "title": "iOS Blackjack App",
-      "image": "images/blackjack.png",
+      "image": "images/bj.jpg",
       "descr": [
+        "Fluid animations, balance tracking, and decision anlysis",
         "Made using SwiftUI 6 with strict concurrency"
       ]
     },
@@ -52,14 +53,16 @@
       "title": "Casting Browser App",
       "image": "images/cast.png",
       "descr": [
-        "Detects videos using injected JS and casts using GoogleCast SDK",
-        "Utilizes iOS 26 liquid glass and WebKit"
+        "Allows users to cast any video source on any website to Chromecast",
+        "Utilizes iOS 26 liquid glass and WebKit",
+        "Made using SwiftUI 6 with strict concurrency"
       ]
     },
     {
-      "title": "App Landing Page for Browser App",
+      "title": "Landing Page for Browser App",
       "image": "images/website.jpg",
       "descr": [
+        "Landing page for my Casting Browser App",
         "Made using HTML5 and TailwindCSS",
         "Hosted on AWS S3 bucket"
       ]
